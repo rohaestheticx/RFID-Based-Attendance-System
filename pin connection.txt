@@ -1,0 +1,28 @@
+MFRC522 Pin	Connect to ESP32
+
+3.3V		3.3V
+GND	 	GND
+RST	        GPIO 2
+SDA (SS)	GPIO 5
+MOSI		GPIO 23
+MISO		GPIO 19
+SCK		GPIO 18
+
+I2C LCD
+
+LCD Pin	ESP32
+
+VCC	5V
+GND	GND
+SDA	GPIO 21
+SCL	GPIO 22
+
+LEDs & Buzzer
+
+Device	ESP32 Pin
+
+Green LED	GPIO 13
+Red LED	        GPIO 27
+Buzzer    	GPIO 14
+
+(Use 220Ω resistor for LEDs)
